@@ -1,6 +1,6 @@
 ﻿namespace Character_Generator
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.label3 = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.lblName = new System.Windows.Forms.Label();
+            this.lblNickname = new System.Windows.Forms.Label();
+            this.txtNickname = new System.Windows.Forms.TextBox();
+            this.mvwBirthdate = new System.Windows.Forms.MonthCalendar();
+            this.lblBirthdate = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -48,8 +48,8 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.grpName = new System.Windows.Forms.GroupBox();
+            this.grpBirthdate = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -71,60 +71,60 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.grpName.SuspendLayout();
+            this.grpBirthdate.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Location = new System.Drawing.Point(78, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(223, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtName.Location = new System.Drawing.Point(78, 19);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(223, 20);
+            this.txtName.TabIndex = 0;
             // 
-            // label1
+            // lblName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Name:";
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(16, 24);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(38, 13);
+            this.lblName.TabIndex = 1;
+            this.lblName.Text = "Name:";
             // 
-            // label2
+            // lblNickname
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 74);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Nickname:";
+            this.lblNickname.AutoSize = true;
+            this.lblNickname.Location = new System.Drawing.Point(16, 74);
+            this.lblNickname.Name = "lblNickname";
+            this.lblNickname.Size = new System.Drawing.Size(58, 13);
+            this.lblNickname.TabIndex = 2;
+            this.lblNickname.Text = "Nickname:";
             // 
-            // textBox2
+            // txtNickname
             // 
-            this.textBox2.Location = new System.Drawing.Point(80, 71);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(135, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtNickname.Location = new System.Drawing.Point(80, 71);
+            this.txtNickname.Name = "txtNickname";
+            this.txtNickname.Size = new System.Drawing.Size(135, 20);
+            this.txtNickname.TabIndex = 3;
             // 
-            // monthCalendar1
+            // mvwBirthdate
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(87, 25);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 4;
+            this.mvwBirthdate.Location = new System.Drawing.Point(87, 25);
+            this.mvwBirthdate.Name = "mvwBirthdate";
+            this.mvwBirthdate.TabIndex = 4;
             // 
-            // label3
+            // lblBirthdate
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 25);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Date of Birth:";
+            this.lblBirthdate.AutoSize = true;
+            this.lblBirthdate.Location = new System.Drawing.Point(6, 25);
+            this.lblBirthdate.Name = "lblBirthdate";
+            this.lblBirthdate.Size = new System.Drawing.Size(69, 13);
+            this.lblBirthdate.TabIndex = 5;
+            this.lblBirthdate.Text = "Date of Birth:";
             // 
             // label4
             // 
@@ -268,30 +268,29 @@
             this.textBox6.Size = new System.Drawing.Size(215, 20);
             this.textBox6.TabIndex = 19;
             // 
-            // groupBox1
+            // grpName
             // 
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Location = new System.Drawing.Point(48, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(354, 120);
-            this.groupBox1.TabIndex = 21;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Character Name";
+            this.grpName.Controls.Add(this.lblName);
+            this.grpName.Controls.Add(this.txtName);
+            this.grpName.Controls.Add(this.lblNickname);
+            this.grpName.Controls.Add(this.txtNickname);
+            this.grpName.Location = new System.Drawing.Point(48, 12);
+            this.grpName.Name = "grpName";
+            this.grpName.Size = new System.Drawing.Size(354, 120);
+            this.grpName.TabIndex = 21;
+            this.grpName.TabStop = false;
+            this.grpName.Text = "Character Name";
             // 
-            // groupBox2
+            // grpBirthdate
             // 
-            this.groupBox2.Controls.Add(this.monthCalendar1);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(48, 137);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(354, 193);
-            this.groupBox2.TabIndex = 22;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Character Birthdate";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            this.grpBirthdate.Controls.Add(this.mvwBirthdate);
+            this.grpBirthdate.Controls.Add(this.lblBirthdate);
+            this.grpBirthdate.Location = new System.Drawing.Point(48, 137);
+            this.grpBirthdate.Name = "grpBirthdate";
+            this.grpBirthdate.Size = new System.Drawing.Size(354, 193);
+            this.grpBirthdate.TabIndex = 22;
+            this.grpBirthdate.TabStop = false;
+            this.grpBirthdate.Text = "Character Birthdate";
             // 
             // groupBox3
             // 
@@ -383,7 +382,6 @@
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "Female";
             this.radioButton7.UseVisualStyleBackColor = true;
-            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
             // 
             // radioButton6
             // 
@@ -456,7 +454,6 @@
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "No";
             this.radioButton5.UseVisualStyleBackColor = true;
-            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -517,7 +514,7 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "groupBox7";
             // 
-            // Form1
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -528,14 +525,14 @@
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Controls.Add(this.grpBirthdate);
+            this.Controls.Add(this.grpName);
+            this.Name = "frmMain";
             this.Text = "Character Generator";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.grpName.ResumeLayout(false);
+            this.grpName.PerformLayout();
+            this.grpBirthdate.ResumeLayout(false);
+            this.grpBirthdate.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -550,12 +547,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Label lblNickname;
+        private System.Windows.Forms.TextBox txtNickname;
+        private System.Windows.Forms.MonthCalendar mvwBirthdate;
+        private System.Windows.Forms.Label lblBirthdate;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
@@ -570,8 +567,8 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox grpName;
+        private System.Windows.Forms.GroupBox grpBirthdate;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label10;

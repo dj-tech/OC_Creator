@@ -7,3 +7,12 @@ c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Gener
 c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\obj\Debug\Character_Generator.csproj.GenerateResource.Cache
 c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\obj\Debug\Character_Generator.exe
 c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\obj\Debug\Character_Generator.pdb
+C:\Users\Lee - ALPHAMARIOX\Documents\GitHub\OC_Creator\Character_Generator\Character_Generator\bin\Debug\Character_Generator.exe.config
+C:\Users\Lee - ALPHAMARIOX\Documents\GitHub\OC_Creator\Character_Generator\Character_Generator\obj\Debug\Character_Generator.exe
+C:\Users\Lee - ALPHAMARIOX\Documents\GitHub\OC_Creator\Character_Generator\Character_Generator\obj\Debug\Character_Generator.pdb
+C:\Users\Lee - ALPHAMARIOX\Documents\GitHub\OC_Creator\Character_Generator\Character_Generator\obj\Debug\Character_Generator.csprojResolveAssemblyReference.cache
+C:\Users\Lee - ALPHAMARIOX\Documents\GitHub\OC_Creator\Character_Generator\Character_Generator\obj\Debug\Character_Generator.frmMain.resources
+C:\Users\Lee - ALPHAMARIOX\Documents\GitHub\OC_Creator\Character_Generator\Character_Generator\obj\Debug\Character_Generator.Properties.Resources.resources
+C:\Users\Lee - ALPHAMARIOX\Documents\GitHub\OC_Creator\Character_Generator\Character_Generator\obj\Debug\Character_Generator.csproj.GenerateResource.Cache
+C:\Users\Lee - ALPHAMARIOX\Documents\GitHub\OC_Creator\Character_Generator\Character_Generator\bin\Debug\Character_Generator.exe
+C:\Users\Lee - ALPHAMARIOX\Documents\GitHub\OC_Creator\Character_Generator\Character_Generator\bin\Debug\Character_Generator.pdb
