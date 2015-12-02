@@ -1,0 +1,9 @@
+c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\bin\Debug\Character_Generator.exe.config
+c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\bin\Debug\Character_Generator.exe
+c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\bin\Debug\Character_Generator.pdb
+c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\obj\Debug\Character_Generator.csprojResolveAssemblyReference.cache
+c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\obj\Debug\Character_Generator.Form1.resources
+c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\obj\Debug\Character_Generator.Properties.Resources.resources
+c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\obj\Debug\Character_Generator.csproj.GenerateResource.Cache
+c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\obj\Debug\Character_Generator.exe
+c:\users\lee - alphamariox\documents\visual studio 2013\Projects\Character_Generator\Character_Generator\obj\Debug\Character_Generator.pdb
