@@ -28,77 +28,92 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.lblName = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            this.txtFirstName = new System.Windows.Forms.TextBox();
+            this.lblFirstName = new System.Windows.Forms.Label();
             this.lblNickname = new System.Windows.Forms.Label();
             this.txtNickname = new System.Windows.Forms.TextBox();
             this.mvwBirthdate = new System.Windows.Forms.MonthCalendar();
             this.lblBirthdate = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.lblGender = new System.Windows.Forms.Label();
+            this.radMale = new System.Windows.Forms.RadioButton();
+            this.radFemale = new System.Windows.Forms.RadioButton();
+            this.radOther = new System.Windows.Forms.RadioButton();
+            this.lblPersonality = new System.Windows.Forms.Label();
+            this.cboPersonality = new System.Windows.Forms.ComboBox();
+            this.lblSpecies = new System.Windows.Forms.Label();
+            this.txtSpecies = new System.Windows.Forms.TextBox();
+            this.lblProfession = new System.Windows.Forms.Label();
+            this.txtProfession = new System.Windows.Forms.TextBox();
+            this.lblPartner = new System.Windows.Forms.Label();
+            this.txtPartner = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.grpName = new System.Windows.Forms.GroupBox();
             this.grpBirthdate = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.grpGender = new System.Windows.Forms.GroupBox();
+            this.grpCharProfile = new System.Windows.Forms.GroupBox();
+            this.lblRace = new System.Windows.Forms.Label();
+            this.txtRace = new System.Windows.Forms.TextBox();
+            this.grpRelationships = new System.Windows.Forms.GroupBox();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.label14 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblChildFirstName = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.label11 = new System.Windows.Forms.Label();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.radNoChild = new System.Windows.Forms.RadioButton();
+            this.radYesChild = new System.Windows.Forms.RadioButton();
+            this.lblChild = new System.Windows.Forms.Label();
+            this.grpLivelyhood = new System.Windows.Forms.GroupBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.grpFavorites = new System.Windows.Forms.GroupBox();
+            this.lblLastName = new System.Windows.Forms.Label();
+            this.txtLastName = new System.Windows.Forms.TextBox();
+            this.lblMiddleInitials = new System.Windows.Forms.Label();
+            this.txtMiddleInitials = new System.Windows.Forms.TextBox();
+            this.btnAddName = new System.Windows.Forms.Button();
+            this.btnAddNicknames = new System.Windows.Forms.Button();
+            this.btnAddBirthdate = new System.Windows.Forms.Button();
+            this.btnAddProfile = new System.Windows.Forms.Button();
+            this.lblChildLastName = new System.Windows.Forms.Label();
+            this.txtChildLastName = new System.Windows.Forms.TextBox();
+            this.lblChildMiddleInitials = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.grpPhysique = new System.Windows.Forms.GroupBox();
             this.grpName.SuspendLayout();
             this.grpBirthdate.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox6.SuspendLayout();
+            this.grpGender.SuspendLayout();
+            this.grpCharProfile.SuspendLayout();
+            this.grpRelationships.SuspendLayout();
+            this.grpLivelyhood.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txtName
+            // txtFirstName
             // 
-            this.txtName.Location = new System.Drawing.Point(78, 19);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(223, 20);
-            this.txtName.TabIndex = 0;
+            this.txtFirstName.Location = new System.Drawing.Point(87, 21);
+            this.txtFirstName.Name = "txtFirstName";
+            this.txtFirstName.Size = new System.Drawing.Size(223, 20);
+            this.txtFirstName.TabIndex = 0;
             // 
-            // lblName
+            // lblFirstName
             // 
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(16, 24);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(38, 13);
-            this.lblName.TabIndex = 1;
-            this.lblName.Text = "Name:";
+            this.lblFirstName.AutoSize = true;
+            this.lblFirstName.Location = new System.Drawing.Point(16, 24);
+            this.lblFirstName.Name = "lblFirstName";
+            this.lblFirstName.Size = new System.Drawing.Size(60, 13);
+            this.lblFirstName.TabIndex = 1;
+            this.lblFirstName.Text = "First Name:";
+            this.lblFirstName.UseMnemonic = false;
             // 
             // lblNickname
             // 
             this.lblNickname.AutoSize = true;
-            this.lblNickname.Location = new System.Drawing.Point(16, 74);
+            this.lblNickname.Location = new System.Drawing.Point(16, 103);
             this.lblNickname.Name = "lblNickname";
             this.lblNickname.Size = new System.Drawing.Size(58, 13);
             this.lblNickname.TabIndex = 2;
@@ -106,9 +121,9 @@
             // 
             // txtNickname
             // 
-            this.txtNickname.Location = new System.Drawing.Point(80, 71);
+            this.txtNickname.Location = new System.Drawing.Point(87, 100);
             this.txtNickname.Name = "txtNickname";
-            this.txtNickname.Size = new System.Drawing.Size(135, 20);
+            this.txtNickname.Size = new System.Drawing.Size(223, 20);
             this.txtNickname.TabIndex = 3;
             // 
             // mvwBirthdate
@@ -126,61 +141,61 @@
             this.lblBirthdate.TabIndex = 5;
             this.lblBirthdate.Text = "Date of Birth:";
             // 
-            // label4
+            // lblGender
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 29);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Gender:";
+            this.lblGender.AutoSize = true;
+            this.lblGender.Location = new System.Drawing.Point(6, 29);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(45, 13);
+            this.lblGender.TabIndex = 6;
+            this.lblGender.Text = "Gender:";
             // 
-            // radioButton1
+            // radMale
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(66, 27);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(48, 17);
-            this.radioButton1.TabIndex = 7;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radMale.AutoSize = true;
+            this.radMale.Location = new System.Drawing.Point(66, 27);
+            this.radMale.Name = "radMale";
+            this.radMale.Size = new System.Drawing.Size(48, 17);
+            this.radMale.TabIndex = 7;
+            this.radMale.TabStop = true;
+            this.radMale.Text = "Male";
+            this.radMale.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // radFemale
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(127, 29);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(59, 17);
-            this.radioButton2.TabIndex = 8;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radFemale.AutoSize = true;
+            this.radFemale.Location = new System.Drawing.Point(127, 29);
+            this.radFemale.Name = "radFemale";
+            this.radFemale.Size = new System.Drawing.Size(59, 17);
+            this.radFemale.TabIndex = 8;
+            this.radFemale.TabStop = true;
+            this.radFemale.Text = "Female";
+            this.radFemale.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // radOther
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(192, 29);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(51, 17);
-            this.radioButton3.TabIndex = 9;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Other";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radOther.AutoSize = true;
+            this.radOther.Location = new System.Drawing.Point(192, 29);
+            this.radOther.Name = "radOther";
+            this.radOther.Size = new System.Drawing.Size(51, 17);
+            this.radOther.TabIndex = 9;
+            this.radOther.TabStop = true;
+            this.radOther.Text = "Other";
+            this.radOther.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // lblPersonality
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 33);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 13);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Personality:";
+            this.lblPersonality.AutoSize = true;
+            this.lblPersonality.Location = new System.Drawing.Point(6, 27);
+            this.lblPersonality.Name = "lblPersonality";
+            this.lblPersonality.Size = new System.Drawing.Size(61, 13);
+            this.lblPersonality.TabIndex = 10;
+            this.lblPersonality.Text = "Personality:";
             // 
-            // comboBox1
+            // cboPersonality
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cboPersonality.FormattingEnabled = true;
+            this.cboPersonality.Items.AddRange(new object[] {
             "Outgoing (Leader)",
             "Outgoing (Entertainer)",
             "Outgoing (Trendsetter)",
@@ -197,59 +212,59 @@
             "Confident (Adventurer)",
             "Confident (Brainiac)",
             "Confident (Go-Getter)"});
-            this.comboBox1.Location = new System.Drawing.Point(76, 27);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(220, 21);
-            this.comboBox1.TabIndex = 11;
-            this.comboBox1.Text = "Please Select Personality in the Drop Box";
+            this.cboPersonality.Location = new System.Drawing.Point(76, 27);
+            this.cboPersonality.Name = "cboPersonality";
+            this.cboPersonality.Size = new System.Drawing.Size(220, 21);
+            this.cboPersonality.TabIndex = 11;
+            this.cboPersonality.Text = "Please Select Personality in the Drop Box";
             // 
-            // label6
+            // lblSpecies
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 109);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 13);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Species:";
+            this.lblSpecies.AutoSize = true;
+            this.lblSpecies.Location = new System.Drawing.Point(6, 88);
+            this.lblSpecies.Name = "lblSpecies";
+            this.lblSpecies.Size = new System.Drawing.Size(48, 13);
+            this.lblSpecies.TabIndex = 12;
+            this.lblSpecies.Text = "Species:";
             // 
-            // textBox3
+            // txtSpecies
             // 
-            this.textBox3.Location = new System.Drawing.Point(78, 102);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(220, 20);
-            this.textBox3.TabIndex = 13;
+            this.txtSpecies.Location = new System.Drawing.Point(76, 85);
+            this.txtSpecies.Name = "txtSpecies";
+            this.txtSpecies.Size = new System.Drawing.Size(220, 20);
+            this.txtSpecies.TabIndex = 13;
             // 
-            // label7
+            // lblProfession
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 70);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 13);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Profession:";
+            this.lblProfession.AutoSize = true;
+            this.lblProfession.Location = new System.Drawing.Point(6, 61);
+            this.lblProfession.Name = "lblProfession";
+            this.lblProfession.Size = new System.Drawing.Size(59, 13);
+            this.lblProfession.TabIndex = 14;
+            this.lblProfession.Text = "Profession:";
             // 
-            // textBox4
+            // txtProfession
             // 
-            this.textBox4.Location = new System.Drawing.Point(76, 63);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(220, 20);
-            this.textBox4.TabIndex = 15;
+            this.txtProfession.Location = new System.Drawing.Point(76, 58);
+            this.txtProfession.Name = "txtProfession";
+            this.txtProfession.Size = new System.Drawing.Size(220, 20);
+            this.txtProfession.TabIndex = 15;
             // 
-            // label8
+            // lblPartner
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 27);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 13);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "Partner:";
+            this.lblPartner.AutoSize = true;
+            this.lblPartner.Location = new System.Drawing.Point(6, 27);
+            this.lblPartner.Name = "lblPartner";
+            this.lblPartner.Size = new System.Drawing.Size(44, 13);
+            this.lblPartner.TabIndex = 16;
+            this.lblPartner.Text = "Partner:";
             // 
-            // textBox5
+            // txtPartner
             // 
-            this.textBox5.Location = new System.Drawing.Point(72, 24);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(215, 20);
-            this.textBox5.TabIndex = 17;
+            this.txtPartner.Location = new System.Drawing.Point(72, 24);
+            this.txtPartner.Name = "txtPartner";
+            this.txtPartner.Size = new System.Drawing.Size(215, 20);
+            this.txtPartner.TabIndex = 17;
             // 
             // label9
             // 
@@ -270,101 +285,113 @@
             // 
             // grpName
             // 
-            this.grpName.Controls.Add(this.lblName);
-            this.grpName.Controls.Add(this.txtName);
+            this.grpName.Controls.Add(this.btnAddNicknames);
+            this.grpName.Controls.Add(this.btnAddName);
+            this.grpName.Controls.Add(this.txtMiddleInitials);
+            this.grpName.Controls.Add(this.lblMiddleInitials);
+            this.grpName.Controls.Add(this.txtLastName);
+            this.grpName.Controls.Add(this.lblLastName);
+            this.grpName.Controls.Add(this.lblFirstName);
+            this.grpName.Controls.Add(this.txtFirstName);
             this.grpName.Controls.Add(this.lblNickname);
             this.grpName.Controls.Add(this.txtNickname);
-            this.grpName.Location = new System.Drawing.Point(48, 12);
+            this.grpName.Location = new System.Drawing.Point(12, 12);
             this.grpName.Name = "grpName";
-            this.grpName.Size = new System.Drawing.Size(354, 120);
+            this.grpName.Size = new System.Drawing.Size(354, 176);
             this.grpName.TabIndex = 21;
             this.grpName.TabStop = false;
             this.grpName.Text = "Character Name";
             // 
             // grpBirthdate
             // 
+            this.grpBirthdate.Controls.Add(this.btnAddBirthdate);
             this.grpBirthdate.Controls.Add(this.mvwBirthdate);
             this.grpBirthdate.Controls.Add(this.lblBirthdate);
-            this.grpBirthdate.Location = new System.Drawing.Point(48, 137);
+            this.grpBirthdate.Location = new System.Drawing.Point(12, 194);
             this.grpBirthdate.Name = "grpBirthdate";
-            this.grpBirthdate.Size = new System.Drawing.Size(354, 193);
+            this.grpBirthdate.Size = new System.Drawing.Size(354, 222);
             this.grpBirthdate.TabIndex = 22;
             this.grpBirthdate.TabStop = false;
             this.grpBirthdate.Text = "Character Birthdate";
             // 
-            // groupBox3
+            // grpGender
             // 
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.radioButton1);
-            this.groupBox3.Controls.Add(this.radioButton2);
-            this.groupBox3.Controls.Add(this.radioButton3);
-            this.groupBox3.Location = new System.Drawing.Point(48, 336);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(354, 70);
-            this.groupBox3.TabIndex = 23;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Character Gender";
+            this.grpGender.Controls.Add(this.lblGender);
+            this.grpGender.Controls.Add(this.radMale);
+            this.grpGender.Controls.Add(this.radFemale);
+            this.grpGender.Controls.Add(this.radOther);
+            this.grpGender.Location = new System.Drawing.Point(372, 525);
+            this.grpGender.Name = "grpGender";
+            this.grpGender.Size = new System.Drawing.Size(361, 70);
+            this.grpGender.TabIndex = 23;
+            this.grpGender.TabStop = false;
+            this.grpGender.Text = "Character Gender";
             // 
-            // groupBox4
+            // grpCharProfile
             // 
-            this.groupBox4.Controls.Add(this.label10);
-            this.groupBox4.Controls.Add(this.textBox7);
-            this.groupBox4.Controls.Add(this.label5);
-            this.groupBox4.Controls.Add(this.comboBox1);
-            this.groupBox4.Controls.Add(this.label7);
-            this.groupBox4.Controls.Add(this.textBox4);
-            this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Controls.Add(this.textBox3);
-            this.groupBox4.Location = new System.Drawing.Point(48, 422);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(354, 184);
-            this.groupBox4.TabIndex = 24;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Character Profile";
+            this.grpCharProfile.Controls.Add(this.btnAddProfile);
+            this.grpCharProfile.Controls.Add(this.lblRace);
+            this.grpCharProfile.Controls.Add(this.txtRace);
+            this.grpCharProfile.Controls.Add(this.lblPersonality);
+            this.grpCharProfile.Controls.Add(this.cboPersonality);
+            this.grpCharProfile.Controls.Add(this.lblProfession);
+            this.grpCharProfile.Controls.Add(this.txtProfession);
+            this.grpCharProfile.Controls.Add(this.lblSpecies);
+            this.grpCharProfile.Controls.Add(this.txtSpecies);
+            this.grpCharProfile.Location = new System.Drawing.Point(12, 422);
+            this.grpCharProfile.Name = "grpCharProfile";
+            this.grpCharProfile.Size = new System.Drawing.Size(354, 184);
+            this.grpCharProfile.TabIndex = 24;
+            this.grpCharProfile.TabStop = false;
+            this.grpCharProfile.Text = "Character Profile";
             // 
-            // label10
+            // lblRace
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(9, 151);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(36, 13);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "Race:";
+            this.lblRace.AutoSize = true;
+            this.lblRace.Location = new System.Drawing.Point(6, 115);
+            this.lblRace.Name = "lblRace";
+            this.lblRace.Size = new System.Drawing.Size(36, 13);
+            this.lblRace.TabIndex = 17;
+            this.lblRace.Text = "Race:";
             // 
-            // textBox7
+            // txtRace
             // 
-            this.textBox7.Location = new System.Drawing.Point(76, 145);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(220, 20);
-            this.textBox7.TabIndex = 16;
+            this.txtRace.Location = new System.Drawing.Point(76, 112);
+            this.txtRace.Name = "txtRace";
+            this.txtRace.Size = new System.Drawing.Size(220, 20);
+            this.txtRace.TabIndex = 16;
             // 
-            // groupBox5
+            // grpRelationships
             // 
-            this.groupBox5.Controls.Add(this.radioButton8);
-            this.groupBox5.Controls.Add(this.radioButton7);
-            this.groupBox5.Controls.Add(this.radioButton6);
-            this.groupBox5.Controls.Add(this.label14);
-            this.groupBox5.Controls.Add(this.button1);
-            this.groupBox5.Controls.Add(this.textBox9);
-            this.groupBox5.Controls.Add(this.label13);
-            this.groupBox5.Controls.Add(this.label12);
-            this.groupBox5.Controls.Add(this.textBox8);
-            this.groupBox5.Controls.Add(this.radioButton5);
-            this.groupBox5.Controls.Add(this.radioButton4);
-            this.groupBox5.Controls.Add(this.label11);
-            this.groupBox5.Controls.Add(this.label8);
-            this.groupBox5.Controls.Add(this.textBox5);
-            this.groupBox5.Location = new System.Drawing.Point(471, 21);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(361, 236);
-            this.groupBox5.TabIndex = 25;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Character Relationships";
+            this.grpRelationships.Controls.Add(this.textBox1);
+            this.grpRelationships.Controls.Add(this.lblChildMiddleInitials);
+            this.grpRelationships.Controls.Add(this.txtChildLastName);
+            this.grpRelationships.Controls.Add(this.lblChildLastName);
+            this.grpRelationships.Controls.Add(this.radioButton8);
+            this.grpRelationships.Controls.Add(this.radioButton7);
+            this.grpRelationships.Controls.Add(this.radioButton6);
+            this.grpRelationships.Controls.Add(this.label14);
+            this.grpRelationships.Controls.Add(this.button1);
+            this.grpRelationships.Controls.Add(this.textBox9);
+            this.grpRelationships.Controls.Add(this.lblChildFirstName);
+            this.grpRelationships.Controls.Add(this.label12);
+            this.grpRelationships.Controls.Add(this.textBox8);
+            this.grpRelationships.Controls.Add(this.radNoChild);
+            this.grpRelationships.Controls.Add(this.radYesChild);
+            this.grpRelationships.Controls.Add(this.lblChild);
+            this.grpRelationships.Controls.Add(this.lblPartner);
+            this.grpRelationships.Controls.Add(this.txtPartner);
+            this.grpRelationships.Location = new System.Drawing.Point(372, 12);
+            this.grpRelationships.Name = "grpRelationships";
+            this.grpRelationships.Size = new System.Drawing.Size(361, 308);
+            this.grpRelationships.TabIndex = 25;
+            this.grpRelationships.TabStop = false;
+            this.grpRelationships.Text = "Character Relationships";
             // 
             // radioButton8
             // 
             this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(191, 165);
+            this.radioButton8.Location = new System.Drawing.Point(191, 245);
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.Size = new System.Drawing.Size(51, 17);
             this.radioButton8.TabIndex = 29;
@@ -375,7 +402,7 @@
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(126, 165);
+            this.radioButton7.Location = new System.Drawing.Point(126, 245);
             this.radioButton7.Name = "radioButton7";
             this.radioButton7.Size = new System.Drawing.Size(59, 17);
             this.radioButton7.TabIndex = 28;
@@ -386,7 +413,7 @@
             // radioButton6
             // 
             this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(72, 165);
+            this.radioButton6.Location = new System.Drawing.Point(72, 245);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(48, 17);
             this.radioButton6.TabIndex = 27;
@@ -397,7 +424,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(9, 165);
+            this.label14.Location = new System.Drawing.Point(9, 245);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(45, 13);
             this.label14.TabIndex = 26;
@@ -405,7 +432,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(72, 192);
+            this.button1.Location = new System.Drawing.Point(72, 272);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 25;
@@ -419,14 +446,14 @@
             this.textBox9.Size = new System.Drawing.Size(215, 20);
             this.textBox9.TabIndex = 24;
             // 
-            // label13
+            // lblChildFirstName
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(6, 129);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(38, 13);
-            this.label13.TabIndex = 23;
-            this.label13.Text = "Name:";
+            this.lblChildFirstName.AutoSize = true;
+            this.lblChildFirstName.Location = new System.Drawing.Point(6, 129);
+            this.lblChildFirstName.Name = "lblChildFirstName";
+            this.lblChildFirstName.Size = new System.Drawing.Size(60, 13);
+            this.lblChildFirstName.TabIndex = 23;
+            this.lblChildFirstName.Text = "First Name:";
             // 
             // label12
             // 
@@ -444,53 +471,53 @@
             this.textBox8.Size = new System.Drawing.Size(100, 20);
             this.textBox8.TabIndex = 21;
             // 
-            // radioButton5
+            // radNoChild
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(130, 60);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(39, 17);
-            this.radioButton5.TabIndex = 20;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "No";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.radNoChild.AutoSize = true;
+            this.radNoChild.Location = new System.Drawing.Point(130, 60);
+            this.radNoChild.Name = "radNoChild";
+            this.radNoChild.Size = new System.Drawing.Size(39, 17);
+            this.radNoChild.TabIndex = 20;
+            this.radNoChild.TabStop = true;
+            this.radNoChild.Text = "No";
+            this.radNoChild.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // radYesChild
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(72, 60);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(43, 17);
-            this.radioButton4.TabIndex = 19;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Yes";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radYesChild.AutoSize = true;
+            this.radYesChild.Location = new System.Drawing.Point(72, 60);
+            this.radYesChild.Name = "radYesChild";
+            this.radYesChild.Size = new System.Drawing.Size(43, 17);
+            this.radYesChild.TabIndex = 19;
+            this.radYesChild.TabStop = true;
+            this.radYesChild.Text = "Yes";
+            this.radYesChild.UseVisualStyleBackColor = true;
             // 
-            // label11
+            // lblChild
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 62);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(48, 13);
-            this.label11.TabIndex = 18;
-            this.label11.Text = "Children:";
+            this.lblChild.AutoSize = true;
+            this.lblChild.Location = new System.Drawing.Point(6, 62);
+            this.lblChild.Name = "lblChild";
+            this.lblChild.Size = new System.Drawing.Size(48, 13);
+            this.lblChild.TabIndex = 18;
+            this.lblChild.Text = "Children:";
             // 
-            // groupBox6
+            // grpLivelyhood
             // 
-            this.groupBox6.Controls.Add(this.textBox10);
-            this.groupBox6.Controls.Add(this.label15);
-            this.groupBox6.Controls.Add(this.label9);
-            this.groupBox6.Controls.Add(this.textBox6);
-            this.groupBox6.Location = new System.Drawing.Point(471, 287);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(361, 193);
-            this.groupBox6.TabIndex = 26;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Character Livelyhood";
+            this.grpLivelyhood.Controls.Add(this.textBox10);
+            this.grpLivelyhood.Controls.Add(this.label15);
+            this.grpLivelyhood.Controls.Add(this.label9);
+            this.grpLivelyhood.Controls.Add(this.textBox6);
+            this.grpLivelyhood.Location = new System.Drawing.Point(372, 326);
+            this.grpLivelyhood.Name = "grpLivelyhood";
+            this.grpLivelyhood.Size = new System.Drawing.Size(361, 193);
+            this.grpLivelyhood.TabIndex = 26;
+            this.grpLivelyhood.TabStop = false;
+            this.grpLivelyhood.Text = "Character Livelyhood";
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(72, 105);
+            this.textBox10.Location = new System.Drawing.Point(72, 60);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(215, 20);
@@ -499,20 +526,129 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(12, 105);
+            this.label15.Location = new System.Drawing.Point(10, 63);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(49, 13);
             this.label15.TabIndex = 20;
             this.label15.Text = "Hobbies:";
             // 
-            // groupBox7
+            // grpFavorites
             // 
-            this.groupBox7.Location = new System.Drawing.Point(471, 504);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(361, 102);
-            this.groupBox7.TabIndex = 27;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "groupBox7";
+            this.grpFavorites.Location = new System.Drawing.Point(739, 12);
+            this.grpFavorites.Name = "grpFavorites";
+            this.grpFavorites.Size = new System.Drawing.Size(361, 102);
+            this.grpFavorites.TabIndex = 27;
+            this.grpFavorites.TabStop = false;
+            this.grpFavorites.Text = "Character\'s Favorites";
+            // 
+            // lblLastName
+            // 
+            this.lblLastName.AutoSize = true;
+            this.lblLastName.Location = new System.Drawing.Point(16, 77);
+            this.lblLastName.Name = "lblLastName";
+            this.lblLastName.Size = new System.Drawing.Size(61, 13);
+            this.lblLastName.TabIndex = 4;
+            this.lblLastName.Text = "Last Name:";
+            // 
+            // txtLastName
+            // 
+            this.txtLastName.Location = new System.Drawing.Point(87, 74);
+            this.txtLastName.Name = "txtLastName";
+            this.txtLastName.Size = new System.Drawing.Size(223, 20);
+            this.txtLastName.TabIndex = 5;
+            // 
+            // lblMiddleInitials
+            // 
+            this.lblMiddleInitials.AutoSize = true;
+            this.lblMiddleInitials.Location = new System.Drawing.Point(2, 51);
+            this.lblMiddleInitials.Name = "lblMiddleInitials";
+            this.lblMiddleInitials.Size = new System.Drawing.Size(79, 13);
+            this.lblMiddleInitials.TabIndex = 6;
+            this.lblMiddleInitials.Text = "Middle Initial(s):";
+            // 
+            // txtMiddleInitials
+            // 
+            this.txtMiddleInitials.Location = new System.Drawing.Point(87, 48);
+            this.txtMiddleInitials.Name = "txtMiddleInitials";
+            this.txtMiddleInitials.Size = new System.Drawing.Size(223, 20);
+            this.txtMiddleInitials.TabIndex = 7;
+            // 
+            // btnAddName
+            // 
+            this.btnAddName.Location = new System.Drawing.Point(87, 140);
+            this.btnAddName.Name = "btnAddName";
+            this.btnAddName.Size = new System.Drawing.Size(75, 23);
+            this.btnAddName.TabIndex = 8;
+            this.btnAddName.Text = "Add Name";
+            this.btnAddName.UseVisualStyleBackColor = true;
+            // 
+            // btnAddNicknames
+            // 
+            this.btnAddNicknames.Location = new System.Drawing.Point(193, 140);
+            this.btnAddNicknames.Name = "btnAddNicknames";
+            this.btnAddNicknames.Size = new System.Drawing.Size(117, 23);
+            this.btnAddNicknames.TabIndex = 9;
+            this.btnAddNicknames.Text = "Add Nickname(s)";
+            this.btnAddNicknames.UseVisualStyleBackColor = true;
+            // 
+            // btnAddBirthdate
+            // 
+            this.btnAddBirthdate.Location = new System.Drawing.Point(87, 188);
+            this.btnAddBirthdate.Name = "btnAddBirthdate";
+            this.btnAddBirthdate.Size = new System.Drawing.Size(86, 23);
+            this.btnAddBirthdate.TabIndex = 6;
+            this.btnAddBirthdate.Text = "Add Birthday";
+            this.btnAddBirthdate.UseVisualStyleBackColor = true;
+            // 
+            // btnAddProfile
+            // 
+            this.btnAddProfile.Location = new System.Drawing.Point(76, 143);
+            this.btnAddProfile.Name = "btnAddProfile";
+            this.btnAddProfile.Size = new System.Drawing.Size(75, 23);
+            this.btnAddProfile.TabIndex = 18;
+            this.btnAddProfile.Text = "Add Profile";
+            this.btnAddProfile.UseVisualStyleBackColor = true;
+            // 
+            // lblChildLastName
+            // 
+            this.lblChildLastName.AutoSize = true;
+            this.lblChildLastName.Location = new System.Drawing.Point(6, 182);
+            this.lblChildLastName.Name = "lblChildLastName";
+            this.lblChildLastName.Size = new System.Drawing.Size(61, 13);
+            this.lblChildLastName.TabIndex = 30;
+            this.lblChildLastName.Text = "Last Name:";
+            // 
+            // txtChildLastName
+            // 
+            this.txtChildLastName.Location = new System.Drawing.Point(72, 179);
+            this.txtChildLastName.Name = "txtChildLastName";
+            this.txtChildLastName.Size = new System.Drawing.Size(215, 20);
+            this.txtChildLastName.TabIndex = 31;
+            // 
+            // lblChildMiddleInitials
+            // 
+            this.lblChildMiddleInitials.AutoSize = true;
+            this.lblChildMiddleInitials.Location = new System.Drawing.Point(6, 150);
+            this.lblChildMiddleInitials.Name = "lblChildMiddleInitials";
+            this.lblChildMiddleInitials.Size = new System.Drawing.Size(73, 13);
+            this.lblChildMiddleInitials.TabIndex = 32;
+            this.lblChildMiddleInitials.Text = "Middle Initials:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(85, 150);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 33;
+            // 
+            // grpPhysique
+            // 
+            this.grpPhysique.Location = new System.Drawing.Point(740, 121);
+            this.grpPhysique.Name = "grpPhysique";
+            this.grpPhysique.Size = new System.Drawing.Size(360, 100);
+            this.grpPhysique.TabIndex = 28;
+            this.grpPhysique.TabStop = false;
+            this.grpPhysique.Text = "Character Physique";
             // 
             // frmMain
             // 
@@ -520,76 +656,91 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1462, 638);
-            this.Controls.Add(this.groupBox7);
-            this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.grpPhysique);
+            this.Controls.Add(this.grpFavorites);
+            this.Controls.Add(this.grpLivelyhood);
+            this.Controls.Add(this.grpRelationships);
+            this.Controls.Add(this.grpCharProfile);
+            this.Controls.Add(this.grpGender);
             this.Controls.Add(this.grpBirthdate);
             this.Controls.Add(this.grpName);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMain";
             this.Text = "Character Generator";
             this.grpName.ResumeLayout(false);
             this.grpName.PerformLayout();
             this.grpBirthdate.ResumeLayout(false);
             this.grpBirthdate.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
+            this.grpGender.ResumeLayout(false);
+            this.grpGender.PerformLayout();
+            this.grpCharProfile.ResumeLayout(false);
+            this.grpCharProfile.PerformLayout();
+            this.grpRelationships.ResumeLayout(false);
+            this.grpRelationships.PerformLayout();
+            this.grpLivelyhood.ResumeLayout(false);
+            this.grpLivelyhood.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtName;
-        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.TextBox txtFirstName;
+        private System.Windows.Forms.Label lblFirstName;
         private System.Windows.Forms.Label lblNickname;
         private System.Windows.Forms.TextBox txtNickname;
         private System.Windows.Forms.MonthCalendar mvwBirthdate;
         private System.Windows.Forms.Label lblBirthdate;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label lblGender;
+        private System.Windows.Forms.RadioButton radMale;
+        private System.Windows.Forms.RadioButton radFemale;
+        private System.Windows.Forms.RadioButton radOther;
+        private System.Windows.Forms.Label lblPersonality;
+        private System.Windows.Forms.ComboBox cboPersonality;
+        private System.Windows.Forms.Label lblSpecies;
+        private System.Windows.Forms.TextBox txtSpecies;
+        private System.Windows.Forms.Label lblProfession;
+        private System.Windows.Forms.TextBox txtProfession;
+        private System.Windows.Forms.Label lblPartner;
+        private System.Windows.Forms.TextBox txtPartner;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.GroupBox grpName;
         private System.Windows.Forms.GroupBox grpBirthdate;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.GroupBox grpGender;
+        private System.Windows.Forms.GroupBox grpCharProfile;
+        private System.Windows.Forms.Label lblRace;
+        private System.Windows.Forms.TextBox txtRace;
+        private System.Windows.Forms.GroupBox grpRelationships;
+        private System.Windows.Forms.RadioButton radNoChild;
+        private System.Windows.Forms.RadioButton radYesChild;
+        private System.Windows.Forms.Label lblChild;
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.RadioButton radioButton7;
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lblChildFirstName;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.GroupBox grpLivelyhood;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox grpFavorites;
+        private System.Windows.Forms.Label lblLastName;
+        private System.Windows.Forms.TextBox txtLastName;
+        private System.Windows.Forms.Button btnAddNicknames;
+        private System.Windows.Forms.Button btnAddName;
+        private System.Windows.Forms.TextBox txtMiddleInitials;
+        private System.Windows.Forms.Label lblMiddleInitials;
+        private System.Windows.Forms.Button btnAddBirthdate;
+        private System.Windows.Forms.Button btnAddProfile;
+        private System.Windows.Forms.Label lblChildLastName;
+        private System.Windows.Forms.TextBox txtChildLastName;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblChildMiddleInitials;
+        private System.Windows.Forms.GroupBox grpPhysique;
     }
 }
 
